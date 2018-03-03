@@ -62,15 +62,16 @@ body, html {
 
 .instructions {
  
-   background-color: #333333; 
-    /* background: linear-gradient(#333333, #434941,  #2f302f); Standard syntax */
+   background-color: transparent; 
+    /* background: linear-gradient(#333333, #242424,  #2d2e2d);  */
+    
    
 
   
   /* color: #DDDDDD; */
   color:orange;
   
-  z-index: 100 ;
+  z-index: -1 ;
   /* margin-right: 100px; */
 }
 
@@ -251,11 +252,11 @@ footer.tab button:focus {
 
   /* font-family: 'Kaushan Script', cursive; */
 }
-div p {color: black;
+/* div p {color: black;
 background-image: linear-repeating-radial-gradient(#333333,white);
 }
 #Nutrition p {margin-left:none;
- transition: max-height 0.5s ease-in-out;}
+ transition: max-height 0.5s ease-in-out;} */
 
 img{
   vertical-align: top;
@@ -264,6 +265,9 @@ img{
   
   filter: grayscale(30%);
   background-size: cover;
+  overflow:visible;
+  margin-top: -125px;
+  padding-top: 0;
  
 }
  /* @media (min-width:320px,
@@ -513,6 +517,9 @@ padding: 15px 15px 0px 30px;
     position: relative;
     margin-left: 25%;
 }
+
+
+
 .closebtnSlide {
     top: 20px;
     right: 45px;
@@ -529,11 +536,33 @@ color:whitesmoke;
    border-radius: 50%;
    
  }
+
+ .overlay-contentSlide p {
+    
+    /* top: 25%; */
+    width: 100%; /* 100% width */
+    text-align: center; 
+    /* Centered text/links */
+    /* margin-top: 30px;  */
+    /* 30px top margin to avoid conflict with the close button on smaller screens */
+    z-index: 0;
+    
+    
+    
+    padding: 0px 0px 0px 0px;
+    text-align: center; 
+    overflow:hidden;
+}
+
  /* #usP{
    background-image: url("../../assets/us.jpg");
    background-size: 50% 50%;
    border-radius:50%;
    
+ } */
+ /* #backgroundPhoto{
+   height:100% ;
+   position:fixed;
  } */
 
 
