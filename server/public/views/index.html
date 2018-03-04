@@ -28,10 +28,10 @@
 <img src="../../assets/nature5.jpeg" data-src-960px="../../assets/ipod.jpg" alt=""><footer class="tab" layout="row" layout-align="center" >
     <div id="footerButtons">
 
-    <span onclick="openNav()"> <button layout="row" layout-align="center" class="tablinks" >About</button></span>
-    <span onclick="openNav2(); showSlides(1)"><button layout="row" layout-align="center" class="tablinks" >Projects</button></span>
-    <span onclick="openNav3()"><button layout="row" layout-align="center" class="tablinks" >Skills</button></span>
-     <span onclick="openNav4()"><button layout="row" layout-align="center" class="tablinks" >More</button></span>
+    <span onclick="openNav(); closeNav2(); closeNav3(); closeNav4()"> <button layout="row" layout-align="center" class="tablinks" >About</button></span>
+    <span onclick="openNav2(); showSlides(1); closeNav(); closeNav3(); closeNav4()"><button layout="row" layout-align="center" class="tablinks" >Projects</button></span>
+    <span onclick="openNav3(); closeNav(); closeNav2(); closeNav4()"><button layout="row" layout-align="center" class="tablinks" >Skills</button></span>
+     <span onclick="openNav4(); closeNav(); closeNav2(); closeNav3()"><button layout="row" layout-align="center" class="tablinks" >More</button></span>
    
 
     </div>
