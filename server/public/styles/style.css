@@ -345,9 +345,9 @@ img{
 }
 
 /* When you mouse over the navigation links, change their color */
-.overlay p:hover, .overlay a:focus {
+/* .overlay p:hover, .overlay a:focus {
     color: rgb(130, 168, 138);
-}
+} */
 
 /* Position the close button (top right corner) */
 .overlay .closebtn {
@@ -587,4 +587,82 @@ and (min-device-width : 375px)
 and (max-device-width : 736px) {
  
 }
+#random1:hover, .random1 a:focus {
+    color: rgb(255, 255, 255);
+}
+#random2:hover, .random2 a:focus {
+    color: rgb(255, 255, 255);
+}
+#random3:hover, .random3 a:focus {
+    color: rgb(255, 255, 255);
+}
+#random4:hover, .random4 a:focus {
+    color: rgb(255, 255, 255);
+}
+#random5:hover, .random5 a:focus {
+    color: rgb(255, 255, 255);
+}
+#random6:hover, .random6 a:focus {
+    color: rgb(255, 255, 255);
+}
+#random7:hover, .random7 a:focus {
+    color: rgb(255, 255, 255);
+}
+#random8:hover, .random8 a:focus {
+    color: rgb(255, 255, 255);
+}
+#random9:hover, .random9 a:focus {
+    color: rgb(255, 255, 255);
+}
+#random10:hover, .random10 a:focus {
+    color: rgb(255, 255, 255);
+}
+#random11:hover, .random11 a:focus {
+    color: rgb(255, 255, 255);
+}
+#random12:hover, .random12 a:focus {
+    color: rgb(255, 255, 255);
+}
+#random13:hover, .random13 a:focus {
+    color: rgb(255, 255, 255);
+}
+#random14:hover, .random14 a:focus {
+    color: rgb(255, 255, 255);
+}
+#random15:hover, .random15 a:focus {
+    color: rgb(255, 255, 255);
+}
+#random16:hover, .random16 a:focus {
+    color: rgb(255, 255, 255);
+}
+#random17:hover, .random17 a:focus {
+    color: rgb(255, 255, 255);
+}
+#random18:hover, .random18 a:focus {
+    color: rgb(255, 255, 255);
+}
 
+.random {
+    display: inline;
+    list-style-type: none;
+    width: 400px;
+    color: rgb(222, 233, 224);
+}
+.random li {
+    list-style: none;
+    display: inline;
+}
+/* And then different sizes are made with a few nth-of-type combined in different variants: */
+
+.random li:nth-of-type(3n + 1) {
+    font-size: 1.75em;
+}
+.random li:nth-of-type(4n+3) {
+    font-size: 1.5em;
+}
+.random li:nth-of-type(4n+4) {
+    font-size: 2em;
+}
+.random li:nth-of-type(5n - 3) {
+    font-size: 1.3em;
+}

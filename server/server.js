@@ -10,9 +10,6 @@ var db = require('./modules/db.config.js');
 
 // Route includes
 var indexRouter = require('./routes/index.router');
-var userRouter = require('./routes/user.router');
-var registerRouter = require('./routes/register.router');
-
 
 var port = process.env.PORT || 5000;
 
@@ -29,12 +26,6 @@ app.use(sessionConfig);
 // Start up passport sessions
 app.use(passport.initialize());
 app.use(passport.session());
-
-// Routes
-app.use('/register', registerRouter);
-app.use('/user', userRouter);
-
-
 
 // Catch all bucket, must be last!
 app.use('/', indexRouter);
